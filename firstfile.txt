@@ -1,5 +1,5 @@
 FROM ubuntu
 
-RUN apt-update install -y java-1.8.0-openjdk-devel
+RUN apt-update 
 
 CMD ["/bin/bash"]
