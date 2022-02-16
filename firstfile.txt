@@ -1,5 +1,5 @@
 FROM ubuntu
 
-RUN apt-update 
+RUN apt-update install 
 
 CMD ["/bin/bash"]
